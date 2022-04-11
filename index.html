@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header>
+        <h2>Color Flipper</h2>
+
+        <form class="options">
+            <div class="form-group">
+                <input type="radio" name="opt" id="simple" class="form-control" />
+                <label for="simple">Simple</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" name="opt" id="hex" class="form-control" checked />
+                <label for="hex">Hex</label>
+            </div>
+        </form>
+
+    </header>
+
+    <main class="container">
+        <p class="text">
+            background-color :
+            <span class="color">#ffffff</span>
+        </p>
+        <button class="btn">change</button>
+    </main>
+
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+
+</html>
